@@ -24,7 +24,7 @@ def main():
     type, message = get_rand_message();
     
     channel.basic_publish(
-    exchange='direct_logs', routing_key=type, body=message)
+    exchange='logger', routing_key=type, body=message)
     print(f" [x] Sent: Type:{type}, Message: {message}")
     connection.close()
 
