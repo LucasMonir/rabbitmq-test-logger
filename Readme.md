@@ -12,5 +12,5 @@
 * then, run the producer, which will randomly select a message and a type to be sent
 * well that's it
 
-### Based
+### Based on
 [Example 5 from RabbitMQ's tutorial section](https://www.rabbitmq.com/tutorials/tutorial-four-python.html)
